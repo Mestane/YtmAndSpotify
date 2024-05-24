@@ -18,12 +18,13 @@ git clone https://github.com/Mestane/YtmAndSpotify.git
 
 > [!NOTE]
 > Please don't forget to install the Dosis font in the folder.
+> If there is no ~/.config/conky/ file, please create it as follows.
 
 ## Starting Conky File
 
 ```bash
-install -vd ~/.config/conky (if doesn't exist)
-cp -p ~/YtmAndSpotify/ ~/.config/conky/
+install -vd ~/.config/conky \
+cp -p ~/YtmAndSpotify/ ~/.config/conky/ \
 nohup conky -c ~/.config/conky/YtmAndSpotify/ytmSptfy.conf & disown
 ```
 
