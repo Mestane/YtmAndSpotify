@@ -16,7 +16,7 @@ cd
 git clone https://github.com/Mestane/YtmAndSpotify.git
 ```
 
-> [!NOTE] Font
+> [!NOTE]
 > Please don't forget to install the Dosis font in the folder.
 
 ## Starting Conky File
@@ -33,6 +33,6 @@ nohup conky -c ~/.config/conky/YtmAndSpotify/ytmSptfy.conf & disown
 pkill conky
 ```
 
-> [!NOTE] Spotify and YTM
+> [!NOTE]
 > This is a lightweight script.
 > Tested in arch linux gnome. It only works in Ytm Music and Spotify applications.
