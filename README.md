@@ -23,8 +23,8 @@ git clone https://github.com/Mestane/YtmAndSpotify.git
 ## Starting Conky File
 
 ```bash
-install -vd ~/.config/conky \
-cp -p ~/YtmAndSpotify/ ~/.config/conky/ \
+install -vd ~/.config/conky
+cp -p ~/YtmAndSpotify/ ~/.config/conky/
 nohup conky -c ~/.config/conky/YtmAndSpotify/ytmSptfy.conf & disown
 ```
 
